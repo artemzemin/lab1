@@ -11,6 +11,6 @@ program lab3;
     begin
     y:=sin(n*x)-cos(n/x);
     writeln('x='x:4:2, 'y='y:4:2);
-    x:=x+0,1;
-        end;
+    end;
+        x:=x+0,1;
     end.
