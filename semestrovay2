@@ -1,0 +1,25 @@
+program semestovay2;
+    var 
+    x,y:real;
+
+    begin
+    writeln('-----------------');
+    writeln('|x     |   f(x)|');
+    writeln('-----------------');
+
+    x:=-2;
+
+    while x <= 10 do
+    begin
+        if x < 0 then 
+        y:= 1+x*x
+        else 
+        y:=1-x*x;
+
+        writeln('|', x:6:2,      '|',       y:6:2, '|');
+
+        x:=x+0.5;
+    end;
+
+    writeln('-----------------');
+    end.
